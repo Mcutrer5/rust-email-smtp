@@ -74,9 +74,12 @@ fn run() {
 
 
 	dotenv().ok();
+	// Note: you must set the USER and LOGIN_PASSWORD environment variables in the .env file
 	let USER = std::env::var("USER").unwrap();
 	let LOGIN_PASSWORD = std::env::var("LOGIN_PASSWORD").unwrap();
 
+
+	// replace email sender and recipient here
     let email = Message::builder()
       .from("sender@email.com <sender@email.com>".parse().unwrap())
       .to("receiver@gmail.com <receiver@gmail.com>".parse().unwrap())
