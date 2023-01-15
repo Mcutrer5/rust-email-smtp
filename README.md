@@ -5,8 +5,16 @@ This is a pet project I used to continue learning Rust!
 
 Begin by setting up an SMTP relay. 
 
-In gmail, go to the desktop site, all settings and set up 2-Factor Authentication.
-From there, set an app password.
+In gmail, go to the desktop site, 
+then click the gear in the top right corner,
+from there, click all settings and click on the
+forwarding section. Make sure enable iMap is on here.
+
+From there, click on your icon in the top right corner, 
+Manage your account, 
+go to security and set up 2-Factor Authentication.
+
+After that is set up, create an app password. This will be stored in a .env file
 
 Clone this repo with 
 ```https://github.com/Mcutrer5/rust-email-smtp.git```
