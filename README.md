@@ -1,6 +1,10 @@
 # rust-email-smtp
 This is a pet project I used to continue learning Rust!
 
+This is a program that uses the cargo `systemstat` to grab 
+information on your PC then uses SMTP to email you at a given time
+or as a one shot.
+
 ### How to Run
 
 Begin by setting up an SMTP relay. 
