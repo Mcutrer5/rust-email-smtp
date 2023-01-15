@@ -30,3 +30,5 @@ RECIPIENT_EMAIL=email_here
 ```
 
 Change the recipient and sender emails in main.rs, and use ```cargo run```
+
+Happy learning! If you find this and have other uses, ideas please let me know!
