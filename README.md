@@ -26,7 +26,7 @@ Clone this repo with
 Create a .env file to store environment variables for your email and app password
 ```bash
 LOGIN_PASSWORD=login
-RECIPIENT_EMAIL=email_here
+USER=email_here
 ```
 
 Change the recipient and sender emails in main.rs, and use ```cargo run```
